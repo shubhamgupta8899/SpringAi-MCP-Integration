@@ -16,6 +16,7 @@ public class MCPController {
 
     private final ToolCallbackProvider mcpTool;
 
+    //mcp work on client and server based also
     public MCPController(ChatClient.Builder chatClientBuilder,  ToolCallbackProvider mcpTool){
         this.mcpTool = mcpTool;
         this.chatClient = chatClientBuilder
